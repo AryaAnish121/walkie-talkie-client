@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import style from '../../../styles/Talk.module.css';
 import apiBaseUrl from '../../../components/apiBaseUrl';
 
-const talk = ({ id }) => {
+const Talk = ({ id }) => {
   const [paused, setPaused] = useState(false);
   const [copied, setCopied] = useState(false);
   const [webScokect, setWebScokect] = useState();
@@ -155,4 +155,4 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default talk;
+export default Talk;
