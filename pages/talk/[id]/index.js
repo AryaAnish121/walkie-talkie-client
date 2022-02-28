@@ -115,7 +115,9 @@ const Talk = ({ id }) => {
   };
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(`http://localhost:3000/talk/${id}`);
+    navigator.clipboard.writeText(
+      `https://walkie-talkie-client.vercel.app/talk/${id}`
+    );
     setCopied(true);
 
     setTimeout(() => {
