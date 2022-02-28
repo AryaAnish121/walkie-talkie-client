@@ -1,1 +1,1 @@
-export default 'https://walkietalkie.aryaanish.repl.co';
+export default 'https://mighty-ridge-21941.herokuapp.com';

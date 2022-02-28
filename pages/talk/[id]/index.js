@@ -33,7 +33,7 @@ const Talk = ({ id }) => {
   }
 
   useEffect(() => {
-    const ws = new WebSocket(`wss://walkietalkie.aryaanish.repl.co/`);
+    const ws = new WebSocket('wss://mighty-ridge-21941.herokuapp.com/');
     setWebScokect(ws);
 
     ws.onmessage = async (e) => {
